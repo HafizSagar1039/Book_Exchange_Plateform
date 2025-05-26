@@ -1,0 +1,41 @@
+# 🌐 Root Level
+node_modules/
+dist/
+build/
+.env
+.env.local
+.env.*.local
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 📁 Client Side (Vite + React)
+client/node_modules/
+client/dist/
+client/.env
+client/.env.local
+client/package-lock.json
+
+# 🖥️ Server Side (Express + Node)
+server/node_modules/
+server/.env
+server/package-lock.json
+server/logs/
+server/debug.log
+
+# ⛅ OS / IDE Files
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+
+# 🧪 Test & Coverage
+coverage/
+*.test.js
+*.spec.js
+
+# 💾 Compressed Files
+*.zip
+*.rar
+*.tar.gz
